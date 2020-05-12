@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>sfg-pet-clinic</artifactId>
         <groupId>guru.springframework</groupId>
@@ -23,7 +22,7 @@
         <dependency>
             <groupId>guru.springframework</groupId>
             <artifactId>pet-clinic-data</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <version>0.0.1</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -105,5 +104,6 @@
         <url>scm:git:git@github.com:vlad-eng/sfg-pet-clinic</url>
         <connection>scm:git:git@github.com:vlad-eng/sfg-pet-clinic.git</connection>
         <developerConnection>scm:git:git@github.com:vlad-eng/sfg-pet-clinic.git</developerConnection>
-    </scm>
+      <tag>sfg-pet-clinic-0.0.1</tag>
+  </scm>
 </project>
