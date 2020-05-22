@@ -25,12 +25,12 @@ public class SpecialtyMapService extends AbstractMapService<Specialty, Long> imp
     }
 
     @Override
-    void deleteById(Long id) {
+    public void deleteById(Long id) {
         super.deleteById(id);
     }
 
     @Override
-    void delete(Specialty object) {
+    public void delete(Specialty object) {
         super.delete(object);
     }
 }
